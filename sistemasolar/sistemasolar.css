@@ -1,16 +1,37 @@
 @charset "UFT-8";
+@font-face {
+    font-family: 'Designer' ;
+    src: url(../fonte/Designer.otf) format("OpenType");
+    font-size: normal;
+}
+@font-face {
+    font-family: 'Philo';
+    src: url(../fonte/philosopher/Philosopher-Bold.ttf) format('TrueType');
+    font-size: normal;
+}
+@font-face {
+    font-family: 'good';
+    src: url(../fonte/Good\ Bakwan.otf) format('OpenType');
+    font-size: normal;
+}
+
+@font-face {
+    font-family:'Isan' ;
+    src: url(../fonte/insaniburger/Insanibc.ttf) format('TrueType');
+    font-size: normal;
+}
 *{
     padding: 0%;
     margin: 0%;
 }
 body{
-    background-color: white;
+    background-color:rgb(24, 24, 27);
     font-family: Arial, Helvetica, sans-serif;
     
 }
 
 main{
-    box-shadow: 10px 10px 0px rgb(0, 0, 0);
+    
     background-color: white;
     color: black;
     height: 100%;
@@ -70,31 +91,40 @@ nav >a:hover{
    
 }
 
-
-img{
-    height: 200px;
-    width: 200px;
+.oblic{
+    background-color: rgb(40, 34, 73);
+    text-indent: 20px;
+    font-family:'good';
+    color: white;
+    font-size: 45px;
+    text-shadow: 2px 6px 8px  rgba(0, 0, 0, 0.315);
+    
+    
+    
+}
+.italic{
+    
+    font-family:'good';
+    font-size: 30px;
+    text-indent: 10px;
+    font-style: italic;
+    text-shadow: 1px 4px 3px  rgba(0, 0, 0, 0.116);
+}
+p{
+    margin: 5px;
+    font-weight: bolder;
+    text-indent: 30px;
+    margin-bottom: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+img{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 400px;
+    width: 400px;
+}
 
 
 
